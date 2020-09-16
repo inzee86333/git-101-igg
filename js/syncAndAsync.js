@@ -12,7 +12,7 @@ myFirstAsync = () => {
     return new Promise(resolve => {
         setTimeout(()=>{
             resolve('Success');
-        }, 250)
+        }, 1250)
     })
 }
 
