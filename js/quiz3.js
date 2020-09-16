@@ -1,15 +1,15 @@
-function grade(scor){
-    if(0 <= scor <=50){
+function grade(score){
+    if(score >= 0 && score <= 50){
          return "F"
-     }else if(51 <= scor <=60){
+     }else if(score >= 51 && score <= 60){
          return "D"
-     }else if(61 <= scor <=70){
+     }else if(score >= 61 && score <= 70){
         return "C"
-    }else if(71 <= scor <=80){
+    }else if(score >= 71 && score <= 80){
         return "B"
     }else{
         return "A"
     }
 }
 
-console.log(grade(80))
+console.log(grade(81))
