@@ -1,8 +1,10 @@
-let firstName = "Supamit";
-let lastName = "Padtip";
-let nickName = "Inzee";
-let age = 21;
-let hopbies = "Playing Computer Games"
-let phoneNumber = "0948610872"
+profile = {
+    firstName: "Supamit",
+    lastName: "Padtip",
+    nickName: "Inzee",
+    age: 21,
+    hopbies: "Playing Computer Games",
+    phoneNumber: "0948610872"
+}
 
-console.log(`Fistname: ${firstName} \nLastname: ${lastName}\nNickname: ${nickName}\nAge: ${age}\nHopbies: ${hopbies}\nPhone: ${phoneNumber}`)
+console.log(`Fistname: ${profile.firstName} \nLastname: ${profile.lastName}\nNickname: ${profile.nickName}\nAge: ${profile.age}\nHopbies: ${profile.hopbies}\nPhone: ${profile.phoneNumber}`)
